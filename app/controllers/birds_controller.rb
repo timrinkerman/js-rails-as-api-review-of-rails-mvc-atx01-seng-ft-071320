@@ -1,1 +1,5 @@
-# Add code from Readme
+class BirdController < ApplicationController
+    def index
+        @birds = bird.all 
+    end
+end
